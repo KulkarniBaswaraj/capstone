@@ -1,0 +1,42 @@
+.cartItem {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    box-shadow: 1px 1px 10px 2px lightgray;
+    width: 100%;
+    max-width: 520px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.cartItem img {
+    max-width: 200px;
+    width: 100%;
+    margin-right: 15px;       
+}
+
+.description {
+    text-align: left;
+    width: 50%;
+}
+
+.itemInp {
+    max-width: 35px;
+}
+
+.card{
+    padding: 10px;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card .card-img-top {
+    width: 100%;
+    min-height: 145px;
+    max-height: 145px;
+    object-fit: contain;
+    object-position: center;
+} 
